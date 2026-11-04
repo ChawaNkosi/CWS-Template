@@ -33,7 +33,7 @@ var site = {
       "Sunrise Plumbing has served homes and businesses in Pretoria East for over 12 years.",
       "We are a small team of qualified plumbers. You deal with the same people from the first call to the final check."
     ],
-    image: ""                    // optional
+    image: "C:\\Users\\Chawa\\Downloads\\files\\about-img.jpg"                    // optional
   },
 
   services: {
