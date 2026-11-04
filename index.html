@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Remove the next line when the client goes live -->
+  <meta name="robots" content="noindex, nofollow">
+  <title>Business name</title>
+  <meta name="description" content="">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@600;800&family=Source+Sans+3:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="preview" id="preview" hidden></div>
+
+  <header class="header">
+    <a class="logo" href="#top" id="logo"></a>
+    <button class="menu-btn" id="menuBtn" aria-expanded="false" aria-controls="nav">Menu</button>
+    <nav class="nav" id="nav"></nav>
+  </header>
+
+  <main id="top">
+    <section class="hero" id="hero">
+      <div class="hero-inner">
+        <h1 id="heroHeadline"></h1>
+        <p id="heroText"></p>
+        <div class="actions" id="heroActions"></div>
+      </div>
+    </section>
+
+    <section class="block" id="about" hidden>
+      <div class="wrap about-grid">
+        <div>
+          <h2 id="aboutTitle"></h2>
+          <div id="aboutText"></div>
+        </div>
+        <img id="aboutImage" alt="" hidden>
+      </div>
+    </section>
+
+    <section class="block alt" id="services" hidden>
+      <div class="wrap">
+        <h2 id="servicesTitle"></h2>
+        <div class="items" id="serviceList"></div>
+      </div>
+    </section>
+
+    <section class="block" id="why" hidden>
+      <div class="wrap">
+        <h2 id="whyTitle"></h2>
+        <div class="items" id="whyList"></div>
+      </div>
+    </section>
+
+    <section class="block alt" id="contact">
+      <div class="wrap contact-grid">
+        <div>
+          <h2 id="contactTitle"></h2>
+          <p id="contactText"></p>
+          <ul class="details" id="contactDetails"></ul>
+        </div>
+        <div id="hoursBox" hidden>
+          <h3>Opening hours</h3>
+          <ul class="hours" id="hoursList"></ul>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="wrap footer-row">
+      <p id="footerName"></p>
+      <p class="social" id="social"></p>
+      <p class="credit" id="credit"></p>
+    </div>
+  </footer>
+
+  <script src="js/config.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
